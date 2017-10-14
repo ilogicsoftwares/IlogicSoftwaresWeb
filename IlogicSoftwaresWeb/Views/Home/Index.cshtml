@@ -1,0 +1,686 @@
+﻿
+@{
+   
+    ViewBag.Title = "Home Page";
+    Layout = "";
+  
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Ilogic Softwares C.A, J406110140, Soporte Premium Soft PSKloud, Soporte Tecnico, Programación</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/animate.min.css" rel="stylesheet">
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="~/Content/lightbox.css" rel="stylesheet">
+    <link href="~/Content/main.css" rel="stylesheet">
+    <link id="css-preset" href="~/Content/preset1.css" rel="stylesheet">
+    <link href="~/Content/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="~/Content/ILOGICICONhd.ico">
+</head><!--/head-->
+
+<body ng-app="IlogicApp">
+
+    <!--.preloader-->
+    <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+    <!--/.preloader-->
+   
+    <header id="home">
+        <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(../Content/slider/1.jpg)">
+                    <div class="caption">
+                        <p class="animated fadeInRightBig"><img src="~/Content/ILOGICICONhd.ico" style="height:150px" /></p>
+                        <h1 class="animated fadeInLeftBig">Bienvenido a<span> Ilogic Softwares</span></h1>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Iniciar</a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(../Content/slider/2.png)">
+                    <div class="caption">
+                        <h1 class="animated fadeInLeftBig">Software a<span> Medida</span></h1>
+
+                        <p class="animated fadeInRightBig">Aplicaciones en: Visual Studio.Net(C#,VB) - JavaScript - Html - Css - Foxpro</p>
+                        <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Iniciar</a>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(../Content/slider/3.png)">
+                    <div class="caption">
+                        <h1 class="animated fadeInLeftBig">
+                            Soporte técnico<h1/>
+                            <h1 class="animated fadeInLeftBig"><span>Especializado</span></h1>
+                            <p class="animated fadeInRightBig">PC - Laptops - Celulares - Tablets - Redes</p>
+                            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Iniciar</a>
+                    </div>
+                </div>
+            </div>
+            <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+            <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+        </div><!--/#home-slider-->
+        <div class="main-nav" style="opacity:0.85">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img class="img-responsive" src="~/Content/ilogo.png" alt="logo" style="height:60px;margin-top:-10px">
+
+                    </a>
+
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="scroll active"><a href="#home">Inicio</a></li>
+                        <li class="scroll"><a href="#services">Servicios</a></li>
+                        <li class="scroll"><a href="#about-us">Empresa</a></li>
+                        <li class="scroll"><a href="#portfolio">Productos</a></li>
+                        <li class="scroll"><a href="#team">Descargas</a></li>
+                        <li class="scroll"><a href="#blog">Noticias</a></li>
+                        <li class="scroll"><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--/#main-nav-->
+    </header><!--/#home-->
+    <section id="services">
+        <div class="container">
+            <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="row">
+                    <div class="text-center col-sm-8 col-sm-offset-2">
+                        <h2>Nuestros Servicios</h2>
+                        <p>
+                            En ilogic Softwares Ofrecemos Servicios y Productos de punta, satisfaciendo las necesidas elementales  de nuestro clientes, facilitando asi el crecimiento comercial de los mismos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center our-services">
+                <div class="row">
+                    <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="service-icon">
+                            <i class="icon-dropbox"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Software Personalizado</h3>
+                            <p>Elaboramos Sistemas,  Aplicaciones y paginas web de acuerdo a las necesidades de nuestros clientes, asi como tambien Ofrecemos Sistemas Comerciales.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+                        <div class="service-icon">
+                            <i class="icon-briefcase"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Servicio Tecnico Especializado</h3>
+                            <p>Contamos con un equipo especializado en Soporte Tecnico preparados para resolver cualquier falla eventual. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+                        <div class="service-icon">
+                            <i class="icon-shopping-cart"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Venta de Productos Tecnologicos</h3>
+                            <p>Ofrecemos una alta gama de Productos tecnologicos y de oficina para suplir las necesidades de nuestros clientes.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section><!--/#services-->
+    <section id="about-us" class="parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h2>Acerca de Nosotros</h2>
+                        <p class="text-justify">Somos una empresa dedicada a dar soluciones a las necesidades de nuestros clientes, mediante la prestación de servicios múltiples en cuanto a desarrollo, instalación, compra y venta de Sistemas de Información, comunicación y de productos tecnológicos.</p>
+                        <p class="text-justify"><u>Nuestra Misión:</u> Hacer de la tecnología la solución a las necesidades de las Empresas. Permitiéndoles entender que implementar los avances tecnológicos conlleva al crecimiento comercial y exitoso  de cualquier organización.</p>
+                        <p class="text-justify"><u>Nuestra Visión :</u> Ser la empresa líder y por escogencia en el mercado nacional e internacional en el sector de Desarrollo, consultoría y Distribución de Software, abarcando también la distribución de productos tecnológicos y de oficina. Comprometidos a promover que la tecnología sea más relevante y accesible.</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <p class="lead">Programación</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="95">95%</div>
+                            </div>
+                        </div>
+                        <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+                            <p class="lead">Soporte</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="75">75%</div>
+                            </div>
+                        </div>
+                        <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <p class="lead">Alojamiento Web</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="60">60%</div>
+                            </div>
+                        </div>
+                        <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <p class="lead">Venta de Productos</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="85">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#about-us-->
+
+    <section id="portfolio" ng-controller="productosController">
+        <div class="container">
+            <div class="row">
+                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <h2>Productos</h2>
+                    <p>Escoge la herramienta que mas se adapte a tu necesidad</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3" ng-repeat="prod in productosx">
+                    <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="folio-image">
+                            <img class="img-responsive" ng-src="{{prod.image}}" alt="">
+                        </div>
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <div class="overlay-text">
+                                    <div class="folio-info">
+                                        <h3>{{prod.marca}}</h3>
+                                        <p>{{prod.nombre}}</p>
+                                    </div>
+                                    <div class="folio-overview">
+                                        <span class="folio-link"><a class="folio-read-more" ng-click="Getprod($event,prod)" href="#" data-single_url="{{prod.url}}"><i class="fa fa-link"></i></a></span>
+                                        <span class="folio-expand"><a href="{{prod.image}}" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div id="portfolio-single-wrap">
+            <div id="portfolio-single">
+                <div id="single-portfolio" ng-show="IsVisible">
+                    <div id="portfolio-details" class="container">
+                        <a class="close-folio-item" href="#"><i class="fa fa-times"></i></a>
+                        <img class="img-responsive center-block" src="images/portfolio/1.png" alt="" style="max-width:50%" align="middle">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <div class="project-info">
+                                    <h3 ng-if="caracteristicas.length>0">Caracteristicas:</h3>
+                                    <p class="text-justify">{{itemX.CarTitulo}}</p>
+                                    <ul ng-repeat="car in caracteristicas">
+                                        <li>{{car}}.</li>
+                                    </ul>
+
+                                </div>
+                                <div class="container">
+                                    <div class="jumbotron" ng-if="itemX.jumbo">
+                                        <h3 class="text-center" >
+                                            {{itemX.jumbo}}
+                                        </h3>
+                                        <p align="center"><iframe width="860" height="615" ng-src="{{video}}" frameborder="0" allowfullscreen>This is the test iframe</iframe></p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="project-info">
+                                        <h3 ng-if="itemX.precio || itemX.tempimplement ||  itemX.licencia">Detalle del Producto.</h3>
+                                        <p ng-if="itemX.precio">Precio de Licencia:{{itemX.precio | currency:"BsF."}} (incluye iva).</p>
+                                        <p ng-if="itemX.tempimplement"><span>Tiempo aproximado de implementación:</span> {{itemX.tempimplement}} horas.</p>
+                                        <p ng-if="itemX.licencia"><span>Tipo de licencia:</span>{{itemX.licencia}}.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div><!-- /#portfolio-single-wrap -->
+    </section><!--/#portfolio-->
+
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+                    <h2>Descargas Resaltantes</h2>
+
+                </div>
+            </div>
+            <div class="team-members">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div class="member-image">
+                                <img class="img-responsive" src="" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h3>Ilogic Nomina 1.0</h3>
+                                <h4>Nomina</h4>
+                                <p>Calculo de Nomina</p>
+                                <p>Control de Asistencia</p>
+                                <p>Calculo de Prestaciones</p>
+                                <a>Ver mas</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <div class="member-image">
+                                <img class="img-responsive" src="" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h3>Ilogic Colegio 1.0</h3>
+                                <h4>Administrativo</h4>
+                                <p>Manejo de Mensualidades</p>
+                                <p>Control de Alumnos</p>
+                                <p>Recordatorios por Sms</p>
+                                <a>Ver mas</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+                            <div class="member-image">
+                                <img class="img-responsive" src="" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h3>Premium Soft Administrativo 9.1</h3>
+                                <h4>Administrativo</h4>
+
+                                <a>Ver mas</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                            <div class="member-image">
+                                <img class="img-responsive" src="" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h3>a2 Softway Administrativo</h3>
+                                <h4>Administrativo</h4>
+
+                                <a>Ver mas</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#team-->
+
+    <section id="features" class="parallax">
+        <div class="container">
+            <div class="row count">
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <i class="fa fa-user"></i>
+                    <h3 class="timer">130</h3>
+                    <p>Clientes</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <i class="fa fa-desktop"></i>
+                    <h3 class="timer">220</h3>
+                    <p>Aplicaciones Implementadas</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                    <i class="fa fa-trophy"></i>
+                    <h3 class="timer">130</h3>
+                    <p>Clientes Satisfechos</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <i class="fa fa-comment-o"></i>
+                    <h3>24/7</h3>
+                    <p>Soporte Efectivo</p>
+                </div>
+            </div>
+        </div>
+    </section><!--/#features-->
+
+    <section id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+                    <h2>Precios Resaltantes</h2>
+                    <p>Los precios incluyen Iva</p>
+                </div>
+            </div>
+            <div class="pricing-table">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="single-table featured wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <h3>Licencia Ilogic Nomina</h3>
+                            <div class="price">
+                                BsF.28.000<span>/Año</span>
+                            </div>
+                            <ul>
+
+                                <li>Multi Usuario</li>
+                                <li>Hora de Servicio Promocional</li>
+                                <li>No incluye Entrenamiento.</li>
+                                <li>No incliuye lector de Barra</li>
+
+                            </ul>
+                            <a href="#" class="btn btn-lg btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-table featured wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+                            <h3>Licencia Ilogic Colegio</h3>
+                            <div class="price">
+                                BsF.28.000<span>/Año</span>
+                            </div>
+                            <ul>
+
+                                <li>Multi Usuario</li>
+                                <li>Hora de Servicio Promocional</li>
+                                <li>No incluye Entrenamiento.</li>
+                                <li class="text-hide">No incluye Entrenamiento.</li>
+
+                            </ul>
+                            <a href="#" class="btn btn-lg btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+                            <h3>Licencia Premium Soft 9.1</h3>
+                            <div class="price">
+                                BsF.120.000<span></span>
+                            </div>
+                            <ul>
+
+                                <li>Multi Usuario</li>
+                                <li>Hora de Servicio Normal</li>
+                                <li>No incluye Entrenamiento.</li>
+
+                            </ul>
+                            <a href="#" class="btn btn-lg btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
+                            <h3>Web Hosting</h3>
+                            <div class="price">
+                                BsF.50.000<span>/Año</span>
+                            </div>
+                            <ul>
+                                <li>1 Sitio Web</li>
+                                <li>10GB Almacenaje</li>
+                                <li>100GB Ancho de Banda</li>
+                                <li>1 Base de Datos</li>
+                            </ul>
+                            <a href="#" class="btn btn-lg btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#pricing-->
+
+    <section id="twitter" class="parallax">
+        <div>
+            <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="twitter-icon text-center">
+                            <i class="fa fa-twitter"></i>
+                            <h4>Themeum</h4>
+                        </div>
+                        <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                    <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
+                                </div>
+                                <div class="item">
+                                    <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
+                                </div>
+                                <div class="item">
+                                    <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#twitter-->
+
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+                    <h2>Noticias</h2>
+
+                </div>
+            </div>
+            <div class="blog-posts">
+                <div class="row">
+                    <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                        <div class="post-thumb">
+                            <a href="#"><img class="img-responsive" src="~/Content/blog/1.jpg" alt=""></a>
+                            <div class="post-meta">
+                                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                                <span><i class="fa fa-heart"></i> 0 Likes</span>
+                            </div>
+                            <div class="post-icon">
+                                <i class="fa fa-pencil"></i>
+                            </div>
+                        </div>
+                        <div class="entry-header">
+                            <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+                            <span class="date">June 26, 2014</span>
+                            <span class="cetagory">in <strong>Photography</strong></span>
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="post-thumb">
+                            <div id="post-carousel" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#post-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#post-carousel" data-slide-to="1"></li>
+                                    <li data-target="#post-carousel" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <a href="#"><img class="img-responsive" src="~/Content/blog/2.jpg" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><img class="img-responsive" src="~/Content/blog/1.jpg" alt=""></a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#"><img class="img-responsive" src="~/Content/blog/3.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <a class="blog-left-control" href="#post-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                                <a class="blog-right-control" href="#post-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                            <div class="post-meta">
+                                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                                <span><i class="fa fa-heart"></i> 0 Likes</span>
+                            </div>
+                            <div class="post-icon">
+                                <i class="fa fa-picture-o"></i>
+                            </div>
+                        </div>
+                        <div class="entry-header">
+                            <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+                            <span class="date">June 26, 2014</span>
+                            <span class="cetagory">in <strong>Photography</strong></span>
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+                        <div class="post-thumb">
+                            <a href="#"><img class="img-responsive" src="~/Content/blog/3.jpg" alt=""></a>
+                            <div class="post-meta">
+                                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                                <span><i class="fa fa-heart"></i> 0 Likes</span>
+                            </div>
+                            <div class="post-icon">
+                                <i class="fa fa-video-camera"></i>
+                            </div>
+                        </div>
+                        <div class="entry-header">
+                            <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+                            <span class="date">June 26, 2014</span>
+                            <span class="cetagory">in <strong>Photography</strong></span>
+                        </div>
+                        <div class="entry-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Load More</a>
+                </div>
+            </div>
+        </div>
+    </section><!--/#blog-->
+
+    <section id="contact">
+        <div id="google-map" class="wow fadeIn" data-latitude="10.244360" data-longitude="-67.618249" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+        <div id="contact-us" class="parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h2>Contactenos</h2>
+                        <p>
+                            En Ilogic SoftWares C.A, Establecemos nuestro compromiso con los clientes. Para nosotros es importante su opinion
+                            y la resolución rapida a cualquier solicitud!
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <form id="main-contact-form" name="contact-form" method="post" action="#">
+                                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="form-control" placeholder="Titulo" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Ingresa tu mensaje" required="required"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-submit">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <p>Contactanos a las siguientes Direcciones:</p>
+                                <ul class="address">
+                                    <li><i class="fa fa-map-marker"></i> <span> Dirección Fiscal:</span>MARACAY, EDO. ARAGUA ZONA POSTAL 2104.</li>
+                                    <li><i class="fa fa-phone"></i> <span> Telefonos:</span> (+58) 04243578638; 04123469881; 04267319135   </li>
+                                    <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> ilogicsoftwares@gmail.com, admin@ilogicsoftwares.com</a></li>
+                                    <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.ilogicsoftwares.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#contact-->
+    <footer id="footer">
+        <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="container text-center">
+                <div class="footer-logo">
+                    <a href="index.html"><img class="img-responsive" style="height:100px" src="~/Content/ilogo.png" alt=""></a>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>&copy; 2017 ILOGIC SOFTWARES C.A.</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="pull-right">RIF: <a href="http://www.themeum.com/">J-40611014-0</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="~/Content/jquery.js"></script>
+    <script src="~/Content/angular.min.js"></script>
+    
+    <script type="text/javascript" src="~/Content/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="~/Content/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="~/Content/wow.min.js"></script>
+    <script type="text/javascript" src="~/Content/mousescroll.js"></script>
+    <script type="text/javascript" src="~/Content/smoothscroll.js"></script>
+    <script type="text/javascript" src="~/Content/jquery.countTo.js"></script>
+    <script type="text/javascript" src="~/Content/lightbox.min.js"></script>
+    <script type="text/javascript" src="~/Content/main.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        var productos = JSON.parse('@Html.Raw(ViewBag.listadeprods)');
+    </script>
+    <script src="~/Content/angularServices.js"></script>
+
+    <script src="~/Content/angulito.js"></script>
+</body>
+</html>

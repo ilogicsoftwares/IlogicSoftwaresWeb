@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="pirumpi_ilogicModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="productid" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="productid" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="100" />
+          <Property Name="url" Type="varchar" MaxLength="200" />
+          <Property Name="image" Type="varchar" MaxLength="200" />
+          <Property Name="videourl" Type="varchar" MaxLength="200" />
+          <Property Name="marca" Type="varchar" MaxLength="100" />
+          <Property Name="precio" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="CarTitulo" Type="varchar" MaxLength="200" />
+          <Property Name="caracteristicas" Type="longtext" />
+          <Property Name="tempimplement" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="jumbo" Type="longtext" />
+          <Property Name="licencia" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityContainer Name="pirumpi_ilogicModelStoreContainer">
+          <EntitySet Name="products" EntityType="Self.products" Schema="pirumpi_ilogic" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="pirumpi_ilogicModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="pirumpi_ilogicEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="products" EntityType="pirumpi_ilogicModel.products" />
+        </EntityContainer>
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="productid" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="productid" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="url" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="image" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="videourl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="marca" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="precio" Type="Decimal" />
+          <Property Name="CarTitulo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="caracteristicas" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="tempimplement" Type="Decimal" />
+          <Property Name="jumbo" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="licencia" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="pirumpi_ilogicModelStoreContainer" CdmEntityContainer="pirumpi_ilogicEntities">
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="pirumpi_ilogicModel.products">
+              <MappingFragment StoreEntitySet="products">
+                <ScalarProperty Name="licencia" ColumnName="licencia" />
+                <ScalarProperty Name="jumbo" ColumnName="jumbo" />
+                <ScalarProperty Name="tempimplement" ColumnName="tempimplement" />
+                <ScalarProperty Name="caracteristicas" ColumnName="caracteristicas" />
+                <ScalarProperty Name="CarTitulo" ColumnName="CarTitulo" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+                <ScalarProperty Name="marca" ColumnName="marca" />
+                <ScalarProperty Name="videourl" ColumnName="videourl" />
+                <ScalarProperty Name="image" ColumnName="image" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="productid" ColumnName="productid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

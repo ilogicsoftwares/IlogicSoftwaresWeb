@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pirumpi_ilogicModelStoreContainer" CdmEntityContainer="pirumpi_ilogicEntities">
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="pirumpi_ilogicModel.products">
+        <MappingFragment StoreEntitySet="products">
+          <ScalarProperty Name="licencia" ColumnName="licencia" />
+          <ScalarProperty Name="jumbo" ColumnName="jumbo" />
+          <ScalarProperty Name="tempimplement" ColumnName="tempimplement" />
+          <ScalarProperty Name="caracteristicas" ColumnName="caracteristicas" />
+          <ScalarProperty Name="CarTitulo" ColumnName="CarTitulo" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
+          <ScalarProperty Name="videourl" ColumnName="videourl" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="productid" ColumnName="productid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

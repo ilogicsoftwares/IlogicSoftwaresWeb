@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pirumpi_ilogicModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="pirumpi_ilogicEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="products" EntityType="pirumpi_ilogicModel.products" />
+  </EntityContainer>
+  <EntityType Name="products">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="productid" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="productid" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="url" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="image" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="videourl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="marca" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Decimal" />
+    <Property Name="CarTitulo" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="caracteristicas" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="tempimplement" Type="Decimal" />
+    <Property Name="jumbo" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+    <Property Name="licencia" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>
